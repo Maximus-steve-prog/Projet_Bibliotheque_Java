@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "projet_bibliotheque.src.Main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "projet_bibliotheque.src.Main",
+            "projectName": "projet_bibliotheque",
+            "classPaths": [
+                "lib/mysql-connector-j-8.0.33.jar",
+                "bin"
+            ],
+            "args": "",
+            "vmArgs": ""
+        }
+    ]
+}

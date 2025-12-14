@@ -1,0 +1,480 @@
+stevengoya@stevengoya-OptiPlex-5400-AIO:~/Desktop/Project Archive/projet_bibliotheque$ java -jar bibliotheque_complet.jar
+=== SYSTÈME DE GESTION DE BIBLIOTHÈQUE MySQL ===
+Connexion à la base de données MySQL établie.
+Test de connexion réussi!
+Base de données: MySQL
+Version: 5.5.5-10.4.32-MariaDB
+
+--- MENU PRINCIPAL ---
+1. Gestion des livres
+2. Gestion des membres
+3. Gestion des emprunts
+4. Recherche
+5. Statistiques
+6. Outils avancés
+7. Quitter
+Votre choix: 1
+
+---GESTION DES LIVRES ---
+1. Ajouter un livre
+2. Modifier un livre
+3. Supprimer un livre
+4. Afficher tous les livres
+5. Rechercher un livre
+6. Livres populaires
+7. Retour au menu principal
+Votre choix: 4
+
+--- LISTE DE TOUS LES LIVRES ---
+ID: 1
+Titre: Gongolomasoke
+Auteur: Steve
+Catégorie: Roman
+Exemplaires: 10 (Disponibles: 10)
+-----------------------------------
+Statistiques:
+Nombre de titres: 1
+Total exemplaires: 10
+Exemplaires disponibles: 10
+Exemplaires empruntés: 0
+
+---GESTION DES LIVRES ---
+1. Ajouter un livre
+2. Modifier un livre
+3. Supprimer un livre
+4. Afficher tous les livres
+5. Rechercher un livre
+6. Livres populaires
+7. Retour au menu principal
+Votre choix: 2
+
+--- MODIFICATION D'UN LIVRE ---
+ID du livre à modifier: 1
+
+Livre actuel:
+ID: 1
+Titre: Gongolomasoke
+Auteur: Steve
+Catégorie: Roman
+Exemplaires: 10 (Disponibles: 10)
+-----------------------------------
+Nouveau titre (laisser vide pour ne pas changer): Gongolomasokeee
+Nouvel auteur (laisser vide pour ne pas changer): Steven
+Nouvelle catégorie (laisser vide pour ne pas changer): 5
+Nouveau nombre d'exemplaires (-1 pour ne pas changer): 4
+Livre modifié avec succès !
+
+---GESTION DES LIVRES ---
+1. Ajouter un livre
+2. Modifier un livre
+3. Supprimer un livre
+4. Afficher tous les livres
+5. Rechercher un livre
+6. Livres populaires
+7. Retour au menu principal
+Votre choix: 5
+
+---RECHERCHE AVANCÉE DE LIVRES ---
+Remplissez les critères (laisser vide pour ignorer):
+Titre: Gongolomasokeee
+Auteur: Steven
+Catégorie: Roman
+Aucun livre trouvé avec ces critères.
+
+---GESTION DES LIVRES ---
+1. Ajouter un livre
+2. Modifier un livre
+3. Supprimer un livre
+4. Afficher tous les livres
+5. Rechercher un livre
+6. Livres populaires
+7. Retour au menu principal
+Votre choix: 5
+
+---RECHERCHE AVANCÉE DE LIVRES ---
+Remplissez les critères (laisser vide pour ignorer):
+Titre: Gongolomasokee
+Auteur: 
+Catégorie: 
+
+Résultats de la recherche (1 livres):
+ID: 1
+Titre: Gongolomasokeee
+Auteur: Steven
+Catégorie: 5
+Exemplaires: 4 (Disponibles: 4)
+-----------------------------------
+
+---GESTION DES LIVRES ---
+1. Ajouter un livre
+2. Modifier un livre
+3. Supprimer un livre
+4. Afficher tous les livres
+5. Rechercher un livre
+6. Livres populaires
+7. Retour au menu principal
+Votre choix: 7
+
+--- MENU PRINCIPAL ---
+1. Gestion des livres
+2. Gestion des membres
+3. Gestion des emprunts
+4. Recherche
+5. Statistiques
+6. Outils avancés
+7. Quitter
+Votre choix: 2
+
+---GESTION DES MEMBRES ---
+1. Inscrire un membre
+2. Modifier un membre
+3. Supprimer un membre
+4. Afficher tous les membres
+5. Afficher les membres actifs
+6. Rechercher un membre
+7. Retour au menu principal
+Votre choix: 1
+
+---INSCRIPTION D'UN MEMBRE---
+Nom: Steve  
+Prénom: stephen 
+Email: steve@gmail.com
+Membre inscrit avec succès ! ID: 1
+
+---GESTION DES MEMBRES ---
+1. Inscrire un membre
+2. Modifier un membre
+3. Supprimer un membre
+4. Afficher tous les membres
+5. Afficher les membres actifs
+6. Rechercher un membre
+7. Retour au menu principal
+Votre choix: 2
+
+--- MODIFICATION D'UN MEMBRE ---
+ID du membre à modifier: 1
+
+Membre actuel:
+ID: 1
+Nom: Steve stephen
+Email: steve@gmail.com
+Adhésion: 2025-12-14
+Statut: ACTIF
+-----------------------------------
+Nouveau nom (laisser vide pour ne pas changer): NGOYA
+Nouveau prénom (laisser vide pour ne pas changer): Steve
+Nouvel email (laisser vide pour ne pas changer): stevengoya54@gmail.com
+Nouveau statut (ACTIF/INACTIF, laisser vide pour ne pas changer): 
+Membre modifié avec succès !
+
+---GESTION DES MEMBRES ---
+1. Inscrire un membre
+2. Modifier un membre
+3. Supprimer un membre
+4. Afficher tous les membres
+5. Afficher les membres actifs
+6. Rechercher un membre
+7. Retour au menu principal
+Votre choix: 5
+
+--- MEMBRES ACTIFS ---
+ID: 1
+Nom: NGOYA Steve
+Email: stevengoya54@gmail.com
+Adhésion: 2025-12-14
+Statut: ACTIF
+-----------------------------------
+Total membres actifs: 1
+
+---GESTION DES MEMBRES ---
+1. Inscrire un membre
+2. Modifier un membre
+3. Supprimer un membre
+4. Afficher tous les membres
+5. Afficher les membres actifs
+6. Rechercher un membre
+7. Retour au menu principal
+Votre choix: 6
+
+--- RECHERCHE DE MEMBRE ---
+Nom ou prénom à rechercher: NGOYA
+
+Résultats de la recherche (1 membres):
+ID: 1
+Nom: NGOYA Steve
+Email: stevengoya54@gmail.com
+Adhésion: 2025-12-14
+Statut: ACTIF
+-----------------------------------
+
+---GESTION DES MEMBRES ---
+1. Inscrire un membre
+2. Modifier un membre
+3. Supprimer un membre
+4. Afficher tous les membres
+5. Afficher les membres actifs
+6. Rechercher un membre
+7. Retour au menu principal
+Votre choix: 1
+
+---INSCRIPTION D'UN MEMBRE---
+Nom: Yangao
+Prénom: Jeff
+Email: jeff@gmail.com
+Membre inscrit avec succès ! ID: 2
+
+---GESTION DES MEMBRES ---
+1. Inscrire un membre
+2. Modifier un membre
+3. Supprimer un membre
+4. Afficher tous les membres
+5. Afficher les membres actifs
+6. Rechercher un membre
+7. Retour au menu principal
+Votre choix: 5
+
+--- MEMBRES ACTIFS ---
+ID: 1
+Nom: NGOYA Steve
+Email: stevengoya54@gmail.com
+Adhésion: 2025-12-14
+Statut: ACTIF
+-----------------------------------
+ID: 2
+Nom: Yangao Jeff
+Email: jeff@gmail.com
+Adhésion: 2025-12-14
+Statut: ACTIF
+-----------------------------------
+Total membres actifs: 2
+
+---GESTION DES MEMBRES ---
+1. Inscrire un membre
+2. Modifier un membre
+3. Supprimer un membre
+4. Afficher tous les membres
+5. Afficher les membres actifs
+6. Rechercher un membre
+7. Retour au menu principal
+Votre choix: 7
+
+--- MENU PRINCIPAL ---
+1. Gestion des livres
+2. Gestion des membres
+3. Gestion des emprunts
+4. Recherche
+5. Statistiques
+6. Outils avancés
+7. Quitter
+Votre choix: 3
+
+---  GESTION DES EMPRUNTS ---
+1. Nouvel emprunt
+2. Retour de livre
+3. Afficher les emprunts en cours
+4. Afficher les emprunts en retard
+5. Afficher les emprunts d'un membre
+6. Afficher l'historique complet
+7. Retour au menu principal
+Votre choix: 1
+
+--- NOUVEL EMPRUNT ---
+
+Membres actifs disponibles:
+ID: 1 - NGOYA Steve
+ID: 2 - Yangao Jeff
+
+ID du membre: 1
+
+ Livres disponibles:
+ID: 1 - Gongolomasokeee (4 disponible(s))
+
+ID du livre: 1
+Durée de l'emprunt (en jours, max 30): 5
+
+ Emprunt enregistré avec succès !
+ID Emprunt: 1
+Membre: NGOYA Steve
+Livre: Gongolomasokeee
+Date emprunt: 2025-12-14
+Date retour prévue: 2025-12-19
+
+---  GESTION DES EMPRUNTS ---
+1. Nouvel emprunt
+2. Retour de livre
+3. Afficher les emprunts en cours
+4. Afficher les emprunts en retard
+5. Afficher les emprunts d'un membre
+6. Afficher l'historique complet
+7. Retour au menu principal
+Votre choix: 3
+
+---  EMPRUNTS EN COURS ---
+Total: 1 emprunt(s) en cours
+
+ID: 1
+Membre: NGOYA Steve (ID: 1)
+Livre: Gongolomasokeee (ID: 1)
+Date emprunt: 2025-12-14
+Date retour prévue: 2025-12-19
+Statut: EN_COURS
+-----------------------------------
+
+---  GESTION DES EMPRUNTS ---
+1. Nouvel emprunt
+2. Retour de livre
+3. Afficher les emprunts en cours
+4. Afficher les emprunts en retard
+5. Afficher les emprunts d'un membre
+6. Afficher l'historique complet
+7. Retour au menu principal
+Votre choix: 5
+
+---  EMPRUNTS D'UN MEMBRE ---
+ID du membre: 6
+ Membre non trouvé.
+
+---  GESTION DES EMPRUNTS ---
+1. Nouvel emprunt
+2. Retour de livre
+3. Afficher les emprunts en cours
+4. Afficher les emprunts en retard
+5. Afficher les emprunts d'un membre
+6. Afficher l'historique complet
+7. Retour au menu principal
+Votre choix: 7
+
+--- MENU PRINCIPAL ---
+1. Gestion des livres
+2. Gestion des membres
+3. Gestion des emprunts
+4. Recherche
+5. Statistiques
+6. Outils avancés
+7. Quitter
+Votre choix: 4
+
+---  RECHERCHE ---
+1. Rechercher un livre
+2. Rechercher un membre
+3. Recherche avancée de livres
+4. Retour au menu principal
+Votre choix: 2
+
+--- RECHERCHE DE MEMBRE ---
+Nom ou prénom à rechercher: Yangao
+
+Résultats de la recherche (1 membres):
+ID: 2
+Nom: Yangao Jeff
+Email: jeff@gmail.com
+Adhésion: 2025-12-14
+Statut: ACTIF
+-----------------------------------
+
+---  RECHERCHE ---
+1. Rechercher un livre
+2. Rechercher un membre
+3. Recherche avancée de livres
+4. Retour au menu principal
+Votre choix: 1
+
+---  RECHERCHE SIMPLE DE LIVRE ---
+Rechercher par:
+1. Titre
+2. Auteur
+3. Catégorie
+Votre choix: Gongolomasokee
+Entrée invalide. Réessayez: Gongolomasokeee
+Entrée invalide. Réessayez: 1
+Terme de recherche: 
+ Résultats de la recherche (1 livres):
+ID: 1
+Titre: Gongolomasokeee
+Auteur: Steven
+Catégorie: 5
+Exemplaires: 4 (Disponibles: 3)
+-----------------------------------
+
+---  RECHERCHE ---
+1. Rechercher un livre
+2. Rechercher un membre
+3. Recherche avancée de livres
+4. Retour au menu principal
+Votre choix: Gongolomasokeee
+Entrée invalide. Réessayez: 1
+
+---  RECHERCHE SIMPLE DE LIVRE ---
+Rechercher par:
+1. Titre
+2. Auteur
+3. Catégorie
+Votre choix: 1
+Terme de recherche: 
+ Résultats de la recherche (1 livres):
+ID: 1
+Titre: Gongolomasokeee
+Auteur: Steven
+Catégorie: 5
+Exemplaires: 4 (Disponibles: 3)
+-----------------------------------
+
+---  RECHERCHE ---
+1. Rechercher un livre
+2. Rechercher un membre
+3. Recherche avancée de livres
+4. Retour au menu principal
+Votre choix: 2
+
+--- RECHERCHE DE MEMBRE ---
+Nom ou prénom à rechercher: Yangao Jeff
+Aucun membre trouvé.
+
+---  RECHERCHE ---
+1. Rechercher un livre
+2. Rechercher un membre
+3. Recherche avancée de livres
+4. Retour au menu principal
+Votre choix: 4
+
+--- MENU PRINCIPAL ---
+1. Gestion des livres
+2. Gestion des membres
+3. Gestion des emprunts
+4. Recherche
+5. Statistiques
+6. Outils avancés
+7. Quitter
+Votre choix: 5
+
+--- STATISTIQUES GÉNÉRALES ---
+
+ STATISTIQUES LIVRES:
+Nombre de titres: 1
+Nombre total d'exemplaires: 4
+Exemplaires disponibles: 3
+Exemplaires empruntés: 1
+Taux de disponibilité: 75.0%
+
+STATISTIQUES MEMBRES:
+Nombre total de membres: 2
+Membres actifs: 2
+Membres inactifs: 0
+
+ STATISTIQUES EMPRUNTS:
+Emprunts en cours: 1
+Emprunts en retard: 0
+Taux de retard: 0.0%
+Total des pénalités: 0.0 FCFA
+
+TOP 5 LIVRES LES PLUS POPULAIRES:
+1. Gongolomasokeee
+
+--- MENU PRINCIPAL ---
+1. Gestion des livres
+2. Gestion des membres
+3. Gestion des emprunts
+4. Recherche
+5. Statistiques
+6. Outils avancés
+7. Quitter
